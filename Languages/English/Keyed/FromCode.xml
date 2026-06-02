@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+    <BEWH.Votann.ModSettings.ModName>RimDark 40k - Votann - {0}</BEWH.Votann.ModSettings.ModName>
+
+    <BEWH.Votann.ModSettings.KinContractMinValue>Minimum value of items that Kin will want to trade.</BEWH.Votann.ModSettings.KinContractMinValue>
+    <BEWH.Votann.ModSettings.KinContractMinValueTooltip>Too low value can cause slow downs when refreshing contracts.</BEWH.Votann.ModSettings.KinContractMinValueTooltip>
+
+    <!-- Placement Limit -->
+    <BEWH.Abhuman.PlacementLimit.RequiresKin>Requires a colonist with the 'Cloneskein' gene on the map to place.</BEWH.Abhuman.PlacementLimit.RequiresKin>
+    
+</LanguageData>

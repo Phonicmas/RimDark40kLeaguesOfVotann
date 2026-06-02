@@ -1,0 +1,10 @@
+<loadFolders>
+
+	<v1.6>
+		<li>/</li>
+		<li>1.6</li>
+		<li IfModActive="dubwise.rimatomics">1.6/Mods/DubsRimatomicsRadiation</li>
+		<li IfModActive="katavrik.crashlanding">1.6/Mods/CrashLanding</li>
+	</v1.6>
+
+</loadFolders>

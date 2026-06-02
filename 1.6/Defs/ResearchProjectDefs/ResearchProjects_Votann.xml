@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!-- Ancestor Core -->
+  <ResearchProjectDef ParentName="BEWH_VotannResearchBase">
+    <defName>BEWH_AncestorCore</defName>
+    <label>Ancestor Core</label>
+    <description>Unlocks the ability to construct Ancestor Cores.</description>
+    <techLevel>Spacer</techLevel>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <requiredResearchFacilities>
+      <li>MultiAnalyzer</li>
+    </requiredResearchFacilities>
+    <prerequisites>
+      <li>MicroelectronicsBasics</li>
+    </prerequisites>
+    <baseCost>3000</baseCost>
+    <researchViewX>1</researchViewX>
+    <researchViewY>4</researchViewY>
+    <discoveredLetterTitle>About: Ancestor Cores</discoveredLetterTitle>
+    <discoveredLetterText>You now have the technology to create Ancestor Cores. Each pawn with the "Cloneskein" gene can be uploaded into the Ancestor Core, giving Global Learning factor to all other pawns with the "Cloneskein" gene. Additionally crucibles can be linked to the core, allowing for "Kin" to be gestated.</discoveredLetterText>
+  </ResearchProjectDef>
+
+</Defs>

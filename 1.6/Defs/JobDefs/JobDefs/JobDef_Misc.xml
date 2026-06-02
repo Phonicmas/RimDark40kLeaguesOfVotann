@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <JobDef>
+        <defName>BEWH_CarryKinToAncestorCore</defName>
+        <driverClass>Votann40k.JobDriver_CarryKinToAncestorCore</driverClass>
+        <reportString>carrying TargetA to TargetB.</reportString>
+        <suspendable>false</suspendable>
+        <allowOpportunisticPrefix>true</allowOpportunisticPrefix>
+    </JobDef>
+
+    <JobDef>
+        <defName>BEWH_OpenContractWindow</defName>
+        <driverClass>Votann40k.JobDriver_OpenContractWindow</driverClass>
+        <reportString>Communicating with offworld Kin.</reportString>
+    </JobDef>
+
+</Defs>

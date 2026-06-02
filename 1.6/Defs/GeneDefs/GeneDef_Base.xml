@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <!-- Gene Category -->
+    <!-- Votann -->
+    <GeneCategoryDef>
+        <defName>BEWH_VotannGenes</defName>
+        <label>votann</label>
+        <displayPriorityInXenotype>550</displayPriorityInXenotype>
+    </GeneCategoryDef>
+
+    <!-- Parent Genes -->
+    <GeneDef Name="BEWH_VotannGenesOverallParent" Abstract="True">
+        <displayCategory>BEWH_VotannGenes</displayCategory>
+    </GeneDef>
+
+
+</Defs>
