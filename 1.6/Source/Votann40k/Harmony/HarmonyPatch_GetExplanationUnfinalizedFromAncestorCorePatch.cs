@@ -58,8 +58,8 @@ public static class GetExplanationUnfinalizedFromAncestorCorePatch
 
         var totalGlobalGain = totalBuriedKin * 2f / 100f;
 
-        stringBuilder.AppendLine("BEWH.Abhuman.Kin.AncestorCore".Translate());
-        stringBuilder.AppendLine("    " + "BEWH.Abhuman.Kin.AncestorCoreSharedKnowledge".Translate() + ": " + Core40kUtils.ValueToString(stat, totalGlobalGain, finalized: false, ToStringNumberSense.Offset));
+        stringBuilder.AppendLine("BEWH.Votann.Kin.AncestorCore".Translate());
+        stringBuilder.AppendLine("    " + "BEWH.Votann.Kin.AncestorCoreSharedKnowledge".Translate() + ": " + Core40kUtils.ValueToString(stat, totalGlobalGain, finalized: false, ToStringNumberSense.Offset));
 
         return stringBuilder;
     }

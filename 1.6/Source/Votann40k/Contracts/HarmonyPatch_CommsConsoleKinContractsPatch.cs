@@ -24,7 +24,7 @@ public class CommsConsoleKinContractsPatch
             //contractWindowFloatMenu.Label = contractWindowFloatMenu.Label + " (" + "CannotUseNoPower".Translate() + ")";
         }
         
-        var contractWindowFloatMenu = FloatMenuUtility.DecoratePrioritizedTask(new FloatMenuOption("BEWH.Abhuman.Contract.OpenContracts".Translate().CapitalizeFirst(), delegate
+        var contractWindowFloatMenu = FloatMenuUtility.DecoratePrioritizedTask(new FloatMenuOption("BEWH.Votann.Contract.OpenContracts".Translate().CapitalizeFirst(), delegate
         {
             myPawn.jobs.TryTakeOrderedJob(JobMaker.MakeJob(Votann40kDefOf.BEWH_OpenContractWindow, __instance), JobTag.Misc);
         }), myPawn, __instance);

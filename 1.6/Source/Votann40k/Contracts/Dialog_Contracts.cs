@@ -56,19 +56,19 @@ public class Dialog_Contracts : Window
         Text.Font = GameFont.Medium;
         Text.Anchor = TextAnchor.MiddleLeft;
         var contractAvailableRect = titleRect.TakeRightPart(titleRect.width * 0.75f);
-        Widgets.Label(titleRect, "BEWH.Abhuman.Contract.Title".Translate().CapitalizeFirst());
+        Widgets.Label(titleRect, "BEWH.Votann.Contract.Title".Translate().CapitalizeFirst());
         
         Text.Font = GameFont.Small;
         var priceMultRect = contractAvailableRect.TakeRightPart(contractAvailableRect.width * 0.66f);
-        Widgets.Label(contractAvailableRect, "BEWH.Abhuman.Contract.MaximumContracts".Translate(gameComponentKinContracts.CurrentMaxContractAmount));
-        TooltipHandler.TipRegion(contractAvailableRect, "BEWH.Abhuman.Contract.MaximumContractsTooltip".Translate());
+        Widgets.Label(contractAvailableRect, "BEWH.Votann.Contract.MaximumContracts".Translate(gameComponentKinContracts.CurrentMaxContractAmount));
+        TooltipHandler.TipRegion(contractAvailableRect, "BEWH.Votann.Contract.MaximumContractsTooltip".Translate());
         
         var playerDebtRect = priceMultRect.TakeRightPart(priceMultRect.width * 0.3f);
-        Widgets.Label(priceMultRect, "BEWH.Abhuman.Contract.PriceMult".Translate(gameComponentKinContracts.CurrentContractPriceMultAmount.ToStringDecimalIfSmall()));
-        TooltipHandler.TipRegion(priceMultRect, "BEWH.Abhuman.Contract.PriceMultTooltip".Translate());
+        Widgets.Label(priceMultRect, "BEWH.Votann.Contract.PriceMult".Translate(gameComponentKinContracts.CurrentContractPriceMultAmount.ToStringDecimalIfSmall()));
+        TooltipHandler.TipRegion(priceMultRect, "BEWH.Votann.Contract.PriceMultTooltip".Translate());
         
-        Widgets.Label(playerDebtRect, "BEWH.Abhuman.Contract.Goodwill".Translate(gameComponentKinContracts.CurrentGoodwillByPlayerDebt));
-        TooltipHandler.TipRegion(playerDebtRect, "BEWH.Abhuman.Contract.GoodwillTooltip".Translate());
+        Widgets.Label(playerDebtRect, "BEWH.Votann.Contract.Goodwill".Translate(gameComponentKinContracts.CurrentGoodwillByPlayerDebt));
+        TooltipHandler.TipRegion(playerDebtRect, "BEWH.Votann.Contract.GoodwillTooltip".Translate());
         
         Text.Anchor = TextAnchor.UpperLeft;
         Text.Font = GameFont.Medium;
@@ -94,10 +94,10 @@ public class Dialog_Contracts : Window
         Widgets.DrawMenuSection(givenRect);
         Widgets.DrawMenuSection(expiresInRect);
         
-        Widgets.Label(statusRect, "BEWH.Abhuman.Contract.Status".Translate());
-        Widgets.Label(requestedRect, "BEWH.Abhuman.Contract.RequestedItem".Translate());
-        Widgets.Label(givenRect, "BEWH.Abhuman.Contract.GivenItem".Translate());
-        Widgets.Label(expiresInRect, "BEWH.Abhuman.Contract.ExpiresIn".Translate());
+        Widgets.Label(statusRect, "BEWH.Votann.Contract.Status".Translate());
+        Widgets.Label(requestedRect, "BEWH.Votann.Contract.RequestedItem".Translate());
+        Widgets.Label(givenRect, "BEWH.Votann.Contract.GivenItem".Translate());
+        Widgets.Label(expiresInRect, "BEWH.Votann.Contract.ExpiresIn".Translate());
         
         Text.Anchor = TextAnchor.UpperLeft;
         Text.Font = GameFont.Medium;
@@ -164,9 +164,9 @@ public class Dialog_Contracts : Window
             Widgets.Label(requestedRectInternal, kinContract.requestedItem.LabelCap);
             Widgets.ThingIcon(requestedRectIcon, kinContract.requestedItem);
             var givenRectIcon = givenRectInternal.TakeLeftPart(givenRectInternal.width * 0.5f);
-            Widgets.Label(givenRectInternal, "BEWH.Abhuman.Contract.GivenItemContract".Translate(kinContract.givenItem.LabelCap, kinContract.GetStackAmount()));
+            Widgets.Label(givenRectInternal, "BEWH.Votann.Contract.GivenItemContract".Translate(kinContract.givenItem.LabelCap, kinContract.GetStackAmount()));
             Widgets.ThingIcon(givenRectIcon, kinContract.givenItem);
-            Widgets.Label(expiresInRectInternal, "BEWH.Abhuman.Contract.ExpiresInContract".Translate(kinContract.expiresOn.ToStringTicksToPeriod()));
+            Widgets.Label(expiresInRectInternal, "BEWH.Votann.Contract.ExpiresInContract".Translate(kinContract.expiresOn.ToStringTicksToPeriod()));
             Text.Anchor = TextAnchor.UpperLeft;
             Text.Font = GameFont.Medium;
         }
@@ -192,8 +192,8 @@ public class Dialog_Contracts : Window
         Text.Anchor = TextAnchor.MiddleLeft;
         Widgets.Label(resetRect,
             !gameComponentKinContracts.CanRefresh
-                ? "BEWH.Abhuman.Contract.RefreshCooldown".Translate(gameComponentKinContracts.RefreshIn)
-                : "BEWH.Abhuman.Contract.CanRefresh".Translate());
+                ? "BEWH.Votann.Contract.RefreshCooldown".Translate(gameComponentKinContracts.RefreshIn)
+                : "BEWH.Votann.Contract.CanRefresh".Translate());
         Text.Anchor = TextAnchor.UpperLeft;
         Text.Font = GameFont.Medium;
         

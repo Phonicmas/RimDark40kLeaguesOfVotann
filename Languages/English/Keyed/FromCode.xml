@@ -6,7 +6,51 @@
     <BEWH.Votann.ModSettings.KinContractMinValue>Minimum value of items that Kin will want to trade.</BEWH.Votann.ModSettings.KinContractMinValue>
     <BEWH.Votann.ModSettings.KinContractMinValueTooltip>Too low value can cause slow downs when refreshing contracts.</BEWH.Votann.ModSettings.KinContractMinValueTooltip>
 
+    <!-- Kin -->
+    <BEWH.Votann.Kin.IsNotKin>{0} does not possess the gene {1}</BEWH.Votann.Kin.IsNotKin>
+    <BEWH.Votann.Kin.AncestorCore>Ancestor Core</BEWH.Votann.Kin.AncestorCore>
+    <BEWH.Votann.Kin.AncestorCoreSharedKnowledge>Shared Knowledge</BEWH.Votann.Kin.AncestorCoreSharedKnowledge>
+    <BEWH.Votann.Kin.AncestorCoreFuneral>Bury kin</BEWH.Votann.Kin.AncestorCoreFuneral>
+    <BEWH.Votann.Kin.AncestorCoreNoDeadKin>No dead kin</BEWH.Votann.Kin.AncestorCoreNoDeadKin>
+    <BEWH.Votann.Kin.UploadToAncestorCore>Upload {0} to Ancestor Core</BEWH.Votann.Kin.UploadToAncestorCore>
+    <BEWH.Votann.Kin.CrucibleGrow>Grow Kin</BEWH.Votann.Kin.CrucibleGrow>
+    <BEWH.Votann.Kin.CrucibleGrowDesc>Start the process to grow a new Kin</BEWH.Votann.Kin.CrucibleGrowDesc>
+
+    <!-- Kin Contracts -->
+    <BEWH.Votann.Contract.OpenContracts>Open contracts window</BEWH.Votann.Contract.OpenContracts>
+    <BEWH.Votann.Contract.Title>Kin Contracts</BEWH.Votann.Contract.Title>
+
+    <BEWH.Votann.Contract.RefreshCooldown>Can refresh contracts in: {0}</BEWH.Votann.Contract.RefreshCooldown>
+    <BEWH.Votann.Contract.CanRefresh>Can refresh contracts</BEWH.Votann.Contract.CanRefresh>
+
+    <BEWH.Votann.Contract.Goodwill>Goodwill: {0}</BEWH.Votann.Contract.Goodwill>
+    <BEWH.Votann.Contract.GoodwillTooltip>Goodwill is the general show of much the kin like and affects other aspects. It goes from 0-100 with -100 being reserved for hostility.</BEWH.Votann.Contract.GoodwillTooltip>
+
+    <BEWH.Votann.Contract.PriceMult>Contract trade price multiplier: x{0}</BEWH.Votann.Contract.PriceMult>
+    <BEWH.Votann.Contract.PriceMultTooltip>This is the price multipler on the things they'll trade you. over 1 being in your favor and below being in theirs. Scales of goodwill</BEWH.Votann.Contract.PriceMultTooltip>
+
+    <BEWH.Votann.Contract.MaximumContracts>Maximum contracts: {0}</BEWH.Votann.Contract.MaximumContracts>
+    <BEWH.Votann.Contract.MaximumContractsTooltip>Maximum amount of offered contracts. Scales of goodwill</BEWH.Votann.Contract.MaximumContractsTooltip>
+
+    <BEWH.Votann.Contract.ItemNotReceived>You didn't send the requested item in time and have angered the Kin, they will soon send a "reclaiming" party to get what is theirs and settle their grudge.</BEWH.Votann.Contract.ItemNotReceived>
+
+    <BEWH.Votann.Contract.Status>Status</BEWH.Votann.Contract.Status>
+    <BEWH.Votann.Contract.RequestedItem>Requested Item</BEWH.Votann.Contract.RequestedItem>
+    <BEWH.Votann.Contract.GivenItem>Given Item</BEWH.Votann.Contract.GivenItem>
+    <BEWH.Votann.Contract.ExpiresIn>Expires In</BEWH.Votann.Contract.ExpiresIn>
+
+    <BEWH.Votann.Contract.GivenItemContract>{0} x{1}</BEWH.Votann.Contract.GivenItemContract>
+    <BEWH.Votann.Contract.ExpiresInContract>{0} days</BEWH.Votann.Contract.ExpiresInContract>
+
+    <BEWH.Votann.Contract.ItemReceivedMessage>Kin have sent {0} as their part of the deal. They're waiting for you to send back the agreed upon item via transport pods</BEWH.Votann.Contract.ItemReceivedMessage>
+    <BEWH.Votann.Contract.ItemReceivedTitle>Kin sends Shipment</BEWH.Votann.Contract.ItemReceivedTitle>
+
+    <BEWH.Votann.Contract.StatusAccepted>Accepted</BEWH.Votann.Contract.StatusAccepted>
+    <BEWH.Votann.Contract.StatusCompleted>Completed</BEWH.Votann.Contract.StatusCompleted>
+    <BEWH.Votann.Contract.StatusExpired>Expired</BEWH.Votann.Contract.StatusExpired>
+    <BEWH.Votann.Contract.StatusAvailable>Available</BEWH.Votann.Contract.StatusAvailable>
+
     <!-- Placement Limit -->
-    <BEWH.Abhuman.PlacementLimit.RequiresKin>Requires a colonist with the 'Cloneskein' gene on the map to place.</BEWH.Abhuman.PlacementLimit.RequiresKin>
-    
+    <BEWH.Votann.PlacementLimit.RequiresKin>Requires a colonist with the 'Cloneskein' gene on the map to place.</BEWH.Votann.PlacementLimit.RequiresKin>
+
 </LanguageData>

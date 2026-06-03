@@ -204,7 +204,7 @@ public class GameComponent_KinContracts : GameComponent
     {
         PaymentWasNotReceived = true;
         
-        KinFaction.SetRelationDirect(Find.FactionManager.OfPlayer, FactionRelationKind.Hostile, true, "BEWH.Abhuman.Contract.ItemNotReceived".Translate());
+        KinFaction.SetRelationDirect(Find.FactionManager.OfPlayer, FactionRelationKind.Hostile, true, "BEWH.Votann.Contract.ItemNotReceived".Translate());
         KinFaction.ChangeGoodwill_Debug(Find.FactionManager.OfPlayer, KinFaction.GoodwillToMakeHostile(Find.FactionManager.OfPlayer));
         playerDebt = 0 + kinContract.givenItem.BaseMarketValue * 1.2f;
         
@@ -399,18 +399,18 @@ public class GameComponent_KinContracts : GameComponent
         {
             if (ItemSentToPlayer && ItemReceivedFromPlayer)
             {
-                return "BEWH.Abhuman.Contract.StatusCompleted".Translate();
+                return "BEWH.Votann.Contract.StatusCompleted".Translate();
             }
             if (ItemSentToPlayer)
             {
-                return "BEWH.Abhuman.Contract.StatusAccepted".Translate();
+                return "BEWH.Votann.Contract.StatusAccepted".Translate();
             }
             if (!ItemSentToPlayer && Expired)
             {
-                return "BEWH.Abhuman.Contract.StatusExpired".Translate();
+                return "BEWH.Votann.Contract.StatusExpired".Translate();
             }
             
-            return "BEWH.Abhuman.Contract.StatusAvailable".Translate();
+            return "BEWH.Votann.Contract.StatusAvailable".Translate();
         }
 
         public void InvalidateContract()
@@ -439,8 +439,8 @@ public class GameComponent_KinContracts : GameComponent
             {
                 lookTargets = thingToSend,
                 def = LetterDefOf.PositiveEvent,
-                Text = "BEWH.Abhuman.Contract.ItemReceivedMessage".Translate(thingToSend.LabelCap),
-                Label = "BEWH.Abhuman.Contract.ItemReceivedTitle".Translate()
+                Text = "BEWH.Votann.Contract.ItemReceivedMessage".Translate(thingToSend.LabelCap),
+                Label = "BEWH.Votann.Contract.ItemReceivedTitle".Translate()
             };
 
             Find.LetterStack.ReceiveLetter(letter);

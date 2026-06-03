@@ -24,7 +24,7 @@ public class ModSettingTab_VotannMain : ModSettingTab
         scrollViewHeight += ListingHeightIncreaseGap;
         scrollViewHeight += ListingHeightIncrease;
         
-        Votann40kModSettings.minimumItemValueToTrade = (int)listingStandard.SliderLabeled("BEWH.Votann.ModSettings.KinContractMinValue".Translate(Votann40kModSettings.minimumItemValueToTrade), Votann40kModSettings.minimumItemValueToTrade, 0, 1000, tooltip: "BEWH.Abhuman.ModSettings.KinContractMinValueTooltip".Translate());
+        Votann40kModSettings.minimumItemValueToTrade = (int)listingStandard.SliderLabeled("BEWH.Votann.ModSettings.KinContractMinValue".Translate(Votann40kModSettings.minimumItemValueToTrade), Votann40kModSettings.minimumItemValueToTrade, 0, 1000, tooltip: "BEWH.Votann.ModSettings.KinContractMinValueTooltip".Translate());
 
         scrollViewHeight += ListingHeightIncrease;
         

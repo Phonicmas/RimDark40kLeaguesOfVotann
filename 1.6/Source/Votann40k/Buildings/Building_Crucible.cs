@@ -461,8 +461,8 @@ public class Building_Crucible  : Building_Enterable, IStoreSettingsParent, IThi
 		else
 		{
 			var command_Action = new Command_Action();
-			command_Action.defaultLabel = "BEWH.Abhuman.Kin.CrucibleGrow".Translate();
-			command_Action.defaultDesc = "???".Translate();
+			command_Action.defaultLabel = "BEWH.Votann.Kin.CrucibleGrow".Translate();
+			command_Action.defaultDesc = "BEWH.Votann.Kin.CrucibleGrowDesc".Translate();
 			command_Action.icon = InsertPawnIcon.Texture;
 			command_Action.activateSound = SoundDefOf.Designate_Cancel;
 			command_Action.action = delegate

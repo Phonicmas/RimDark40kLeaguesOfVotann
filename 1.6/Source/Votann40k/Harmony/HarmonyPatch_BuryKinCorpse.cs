@@ -28,7 +28,7 @@ public class BuryKinCorpsePatch
             yield break;
         }
         
-        var carryCorpseToAncestorCore = FloatMenuUtility.DecoratePrioritizedTask(new FloatMenuOption("BEWH.Abhuman.Kin.UploadToAncestorCore".Translate(corpse.InnerPawn).CapitalizeFirst(), delegate
+        var carryCorpseToAncestorCore = FloatMenuUtility.DecoratePrioritizedTask(new FloatMenuOption("BEWH.Votann.Kin.UploadToAncestorCore".Translate(corpse.InnerPawn).CapitalizeFirst(), delegate
         {
             selPawn.jobs.TryTakeOrderedJob(JobMaker.MakeJob(Votann40kDefOf.BEWH_CarryKinToAncestorCore, ancestorCore, corpse), JobTag.Misc);
         }), selPawn, __instance);

@@ -26,7 +26,7 @@ public class Building_AncestorCore : Building
                     null, null, null, null, null, null, null, null, null, null, null, null, forceNoIdeo: true,
                     forceNoBackstory: false, forbidAnyTitle: false, false, null, null, Votann40kDefOf.BEWH_Kin);
                 ancestorCorePawn = PawnGenerator.GeneratePawn(request);
-                ancestorCorePawn.Name = new NameSingle("BEWH.Abhuman.Kin.AncestorCore".Translate());
+                ancestorCorePawn.Name = new NameSingle("BEWH.Votann.Kin.AncestorCore".Translate());
                 ancestorCorePawn.Kill(null);
             }
 
@@ -62,7 +62,7 @@ public class Building_AncestorCore : Building
         
         var funeralCommand = new Command_Action
         {
-            defaultLabel = "BEWH.Abhuman.Kin.AncestorCoreFuneral".Translate(),
+            defaultLabel = "BEWH.Votann.Kin.AncestorCoreFuneral".Translate(),
             action = delegate
             {
                 var list = new List<FloatMenuOption>();
@@ -82,7 +82,7 @@ public class Building_AncestorCore : Building
         if (corpses.EnumerableNullOrEmpty())
         {
             funeralCommand.Disabled = true;
-            funeralCommand.disabledReason = "BEWH.Abhuman.Kin.AncestorCoreNoDeadKin".Translate();
+            funeralCommand.disabledReason = "BEWH.Votann.Kin.AncestorCoreNoDeadKin".Translate();
         }
         yield return funeralCommand;
     }
