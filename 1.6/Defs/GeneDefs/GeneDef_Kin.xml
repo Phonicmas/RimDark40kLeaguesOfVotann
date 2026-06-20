@@ -138,7 +138,7 @@
     </GeneDef>
 
     <!-- Kin: Cloneskein Template: Subdermal Layer -->
-    <GeneDef ParentName="BEWH_AbhumanGenesOverallParent">
+    <GeneDef ParentName="BEWH_VotannGenesOverallParent">
         <defName>BEWH_KinCloneskeinTemplateSubdermalLayer</defName>
         <label>cloneskein template: subdermal layer</label>
         <description>???</description>
