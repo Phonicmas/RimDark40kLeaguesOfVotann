@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+
+<RulePackDef>
+    <defName>BEWH_NamerPerson_Kin_Male</defName>
+    <rulePack>
+        <rulesStrings Inherit="false">
+            <li>r_name->[firstName] [lastName]</li>
+
+            <li>firstName->[givenName]</li>
+            <li>lastName->[chosenName]</li>
+
+
+        </rulesStrings>
+        <rulesFiles>
+            <li>givenName->WordParts/Name_Male_Kin_Given</li>
+            <li>chosenName->WordParts/Name_Male_Kin_Chosen</li>
+        </rulesFiles>
+    </rulePack>
+</RulePackDef>
+
+<RulePackDef>
+    <defName>BEWH_NamerPerson_Kin_Female</defName>
+    <rulePack>
+        <rulesStrings Inherit="false">
+            <li>r_name->[firstName] [lastName]</li>
+
+            <li>firstName->[givenName]</li>
+            <li>lastName->[chosenName]</li>
+
+
+        </rulesStrings>
+        <rulesFiles>
+            <li>givenName->WordParts/Name_Female_Kin_Given</li>
+            <li>chosenName->WordParts/Name_Female_Kin_Chosen</li>
+        </rulesFiles>
+    </rulePack>
+</RulePackDef>
+
+</Defs>
