@@ -4,9 +4,12 @@
     <XenotypeDef>
         <defName>BEWH_Kin</defName>
         <label>kin</label>
-        <description>Kin (Homo sapiens rotundus) are short, stocky and physically hardy Abhumans.</description>
+        <description>[PLACEHOLDER]Kin (Homo sapiens rotundus) are physically short, advanced starfaring species originating from the resource-rich and extreme environments of the galactic core. They are a bio-engineered civilization. New individuals are grown in crucibles linked to an Ancestor Core, a central repository of genetic lineage and collective memory. Upon death, Kin's mind can be uploaded into the Core, where their experiences are preserved. The Kin coexist with sentient machines known as Ironkin, who are regarded as equal members of their society.\n\nKin physiology varies, shaped by unstable cloneskein mutations that grant diverse traits ranging from enhanced durability and sensory adaptation to metabolic and cognitive specialization. They rapidly grow to biological adulthood and possess strong technical and industrial aptitudes, including crafting, engineering, hacking and such. Their biology emphasizes resilience in harsh environments. However the Kin also have their downsides, such their well-known grim temperament and inability to procreate naturally, not to mention their lack of aptitude with plants.</description>
         <iconPath>UI/Xenotypes/BEWH_Kin_icon</iconPath>
         <inheritable>true</inheritable>
+        <nameMaker>BEWH_NamerPerson_Kin_Male</nameMaker>
+        <nameMakerFemale>BEWH_NamerPerson_Kin_Female</nameMakerFemale>
+        <chanceToUseNameMaker>1</chanceToUseNameMaker>
         <canGenerateAsCombatant>true</canGenerateAsCombatant>
         <factionlessGenerationWeight>0.5</factionlessGenerationWeight>
         <genes>
